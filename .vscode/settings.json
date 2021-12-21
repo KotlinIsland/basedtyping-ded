@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "git.allowForcePush": true,
+  "git.autofetch": "all",
+  "git.autoStash": true,
+  "git.pruneOnFetch": true,
+  "git.rebaseWhenSync": true,
+  "git.suggestSmartCommit": false,
+  "git.supportCancellation": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.mypyArgs": ["--show-column-numbers"],
+  "python.linting.mypyEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "files.autoSave": "onFocusChange",
+  "search.useIgnoreFiles": false,
+  "git.useCommitInputAsStashMessage": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "python.linting.flake8CategorySeverity.W": "Error",
+  "files.eol": "\n"
+}
