@@ -1,0 +1,21 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "basedmypy write baseline",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "-m",
+        "mypy",
+        "typing_extensions/src/typing_extensions.py",
+        "--write-baseline"
+      ],
+      "presentation": {
+        "clear": true
+      }
+    }
+  ]
+}
